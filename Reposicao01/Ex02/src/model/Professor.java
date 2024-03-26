@@ -1,6 +1,6 @@
 package model;
 
-public class Professor {
+public abstract class Professor {
     
     private String nome;
     private String matricula;
@@ -34,8 +34,5 @@ public class Professor {
         this.idade = idade;
     }
 
-    public double calcSalario(){
-        //Método que será feito a sobrescrita em classes especializadas
-        return 0;
-    }
+    public abstract double calcSalario();
 }
