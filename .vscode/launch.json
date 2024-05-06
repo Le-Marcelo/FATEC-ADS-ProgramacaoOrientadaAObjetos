@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Teste",
+            "request": "launch",
+            "mainClass": "view.Teste",
+            "projectName": "FATEC-ADS-ProgramacaoOrientadaAObjetos_e0be9a5"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
